@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script language="JavaScript" src="hola.js"></script>
+		<link type="text/CSS" rel="stylesheet" href="estilos.css">
+		<title>Hola mundo :O</title>
+	</head>
+	<body style=" background-color: #74CB61;">
+		<h1>Hola mundo.</h1>
+		<center><form method="get" action="" id="FormPedido">
+			<table border="10">
+				<tr>
+					<td colspan="4" class="fondoTabla">
+						<center><h3> Arma tu arroz</h3></center>
+					</td>
+					
+				</tr>
+				<tr>
+					<td rowspan="5" class="fondoTabla">
+						<center><a href="https://www.youtube.com/watch?v=wUgV5DF3pUU"><img src="..\arroz.jpg" width="250" height="250" align="center"></a></center>
+					</td>
+					<td class="encabezadoNombre">
+						<center><h4> Nombre </h4></center>
+					</td>
+					<td class="encabezadoPrecio">
+						<center><h4> Precio </h4></center>
+					</td>
+					<td class="fondoTabla">
+						
+					</td>
+				</tr>
+				<tr>
+					<td class="elementoNombre">
+						<label for="CBCerdo"><h4>Cerdo</h4></label>
+					</td>
+					<td class="elementoPrecio">
+						<h4> $3.500 </h4>
+					</td>
+					<td class="fondoTabla">
+						<input type=checkbox id="CBCerdo" name="CBCerdo"> 
+			
+						</input>
+					</td>
+				</tr>
+				<tr>
+					<td class="elementoNombre">
+						<label for="CBRes"><h4> Res </h4></label>
+					</td>
+					<td class="elementoPrecio">
+						<h4> $3.500 </h4>
+					</td>
+					<td class="fondoTabla">
+						<input type=checkbox id="CBRes" name="CBRes"> 
+			
+						</input>
+					</td>
+				</tr>
+				<tr>
+					<td class="elementoNombre">
+						<label for="CBPollo"><h4> Pollo </h4></label>
+					</td>
+					<td class="elementoPrecio">
+						<h4> $3.500 </h4>
+					</td>
+					<td class="fondoTabla">
+						<input type=checkbox id="CBPollo" name="CBPollo"> 
+			
+						</input>
+					</td>
+				</tr>
+				<tr>
+					<td class="elementoNombre">
+						<label for="CBPinha"><h4> Piña </h4></label>
+					</td>
+					<td class="elementoPrecio">
+						<h4> $2.000 </h4>
+					</td>
+					<td class="fondoTabla">
+						<input type=checkbox id="CBPinha" name="CBPinha"> 
+			
+						</input>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="4" class="fondoTabla">
+
+						<center><input type=submit value="Finalizar Pedido" name="finalizarPedido" onclick="validarPedido()"></center>
+						<center><h5> Cada porción de arroz incluye calabacin, cebolla, zanahoria y pimentón.</h5></center>
+						
+					</td>
+				</tr>
+			</table>
+		</form></center>
+		
+		<h2 id="tituloHTML" name="tituloHTML">
+			HTML
+		</h2>
+		<ol id="listaHTML" name="listaHTML">
+			<li>
+				Su significado es Lenguaje de Marcado de Hipertexto (HTML).
+			</li>
+			<li>
+				No es un lenguaje de programación; es un lenguaje de marcado que define la estructura de un sitio web.
+			</li>
+			<li>
+				Para más información sobre HTML <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics">consultar aquí</a>.
+			</li>
+		</ol>
+
+		<h2 id="tituloCSS" name="tituloCSS">
+			CSS
+		</h2>
+		<ul id="listaCSS" name="listaCSS">
+			<li>
+				CSS son las siglas en inglés para "hojas de estilo en cascada" (Cascading Style Sheets).
+			</li>
+			<li>
+				Es el encargado de toda la capa de personalización sobre el que el sitio web define su aspecto final.
+			</li>
+			<li>
+				Para más información sobre CSS <a href="https://developer.mozilla.org/es/docs/Learn/CSS/First_steps/What_is_CSS">consultar aquí</a>.
+			</li>
+		</ul>
+		
+		<h2 id="tituloJS" name="tituloJS">
+			JS
+		</h2>
+		<p id="parrafoJS" name="parrafoJS">
+			JavaScript (JS) es un lenguaje de programación que permite implementar funciones complejas en páginas web. Se ejecuta en el lado del cliente de la web, y se puede utilizar para estilizar/programar cómo se comportan las páginas web cuando ocurre un evento. Más información sobre este lenguaje puede ser <a href="https://developer.mozilla.org/es/docs/conflicting/Web/JavaScript">consultada aquí</a>.
+		</p>
+	</body>
+</html>

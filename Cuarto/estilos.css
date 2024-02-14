@@ -1,0 +1,27 @@
+.fondoTabla{
+    background-color: #EAE01A;
+}
+.encabezadoNombre{
+    background-color: #4193EB;
+}
+.elementoNombre{
+    background-color: #A9C7E7;
+}
+.encabezadoPrecio{
+    background-color: #74CB61;
+}
+.elementoPrecio{
+    background-color: #B4DC99;
+}
+#body{
+    background-color: #74CB61;
+}
+#tituloHTML{
+    color: #50649C;
+}
+#tituloCSS{
+    color: #80438C
+}
+#tituloJS{
+    color: #D97A0F
+}
