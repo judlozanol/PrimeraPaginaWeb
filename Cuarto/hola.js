@@ -26,3 +26,7 @@ function validarPedido(){
     }
 }   
 
+function formaFinal(){
+    alert("Esta pagina a alcanzado su forma definitiva >:D")
+}
+
